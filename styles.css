@@ -1,0 +1,74 @@
+/* Import the pywal CSS file.
+   @import url('file:///home/olivia/.cache/wal/colors.css');
+*/
+
+html {
+    background-color: #2f2f2f;
+    color: #eee;
+    /* PYWAL COLORS
+    background-color: var(--color0);
+    color: var(--color3);
+    */
+    font-family: 'GohuFont 14 Nerd Font Mono';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 140px;
+    font-weight: 300;
+}
+
+.flex {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+a {
+   text-decoration: none; 
+   font-family: 'GohuFont 14 Nerd Font';
+   //font-weight: 300;
+   font-size: 28px;
+   transition: ease-in-out, font-size .25s ease-in-out;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:hover {
+    font-size: 42px;
+}
+
+/* PYWAL COLORS
+.one {
+    color: var(--color1);
+}
+
+.two {
+    color: var(--color2);
+}
+
+.three {
+    color: var(--color3);
+}
+
+.four {
+    color: var(--color4);
+}
+
+.five {
+    color: var(--color5);
+}
+*/
